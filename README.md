@@ -5,11 +5,21 @@ El proyecto esta realizado en Laravel 11 con php 8.1.10 y MariaDB 10.4.13
 Clonar el proyecto o extraerlo.
 Ingresar a la carpeta tascon
 <code>cd tascon</code>
-Una vez en la carpeta ejecutar los sigueintes comandos
+<br/>
+Crear un archivo .env a partir del archivo .env.example configurando la parte relativa a la conexión a la base de datos.
+<br />
+Una vez en la carpeta ejecutar los sigueintes comandos:
+<br />
+<code>php artisan key:generate</code>
+<br/>
 <code>php arstisan migrate</code>
-Elegir si crear la base de datos.
+<br />
+Cuando pregunte la consola, teclear si para crear la base de datos.
+<br />
 <code>php artisan db:seed</code>
+<br />
 <coce>php artisan serve -o</code>
+<br />
 Una vez inicializado el proyecto ingresar a la siguiente ruta
 <a href="http://localhost:8000/tasks">http://localhost:8000/tasks</a>
 
